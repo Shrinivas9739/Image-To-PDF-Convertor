@@ -1,33 +1,21 @@
-Image to PDF Converter
+# **🖼️ Image to PDF Converter**
 
-A simple GUI-based application that converts multiple images into a single PDF file. This application is built using Python and the Tkinter library.
+## **📌 Description**
+The **Image to PDF Converter** is a **GUI-based Python application** that allows users to select multiple images and convert them into a **single PDF file**.  
+It uses **Tkinter** for the interface, **Pillow (PIL)** for image handling, and **ReportLab** for PDF generation.  
 
-Features
+## **✨ Features**
+- ✅ **Select multiple images** (PNG, JPG, JPEG, BMP)
+- 📝 **Enter a custom name** for the output PDF
+- 🖼️ **Automatically resizes images** to fit the PDF page
+- 📂 **Saves the generated PDF** in the same directory
+- 🖥️ **User-friendly GUI** built with Tkinter  
 
-Select multiple images (PNG, JPG, JPEG, BMP)
+## **🛠️ Installation**
+### **1️⃣ Install Python (if not installed)**
+- Download and install **Python 3.x** from [Python's official website](https://www.python.org/downloads/).
 
-Enter a custom name for the output PDF
-
-Convert selected images into a single PDF
-
-Displays selected images in a list
-
-Technologies Used
-
-Python
-
-Tkinter (GUI)
-
-ReportLab (PDF generation)
-
-PIL (Pillow) for image processing
-
-Installation
-
-Prerequisites
-
-Make sure you have Python installed. You can download it from Python Official Site.
-
-Install Required Libraries
-
-Run the following command to install the required dependencies:
+### **2️⃣ Install Required Dependencies**
+Run the following command in your terminal or command prompt:  
+```sh
+pip install pillow reportlab
