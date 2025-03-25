@@ -27,11 +27,13 @@ Run the script
 ### **2️⃣ Install Required Dependencies**
 
 📝 Dependencies
-tkinter → Built-in with Python (Used for GUI)
 
-Pillow → Used for image handling (opening, resizing)
+1) tkinter → Built-in with Python (Used for GUI)
 
-ReportLab → Generates PDF files from images
+2) Pillow → Used for image handling (opening, resizing)
+
+3) ReportLab → Generates PDF files from images
+
 Run the following command in your terminal or command prompt:  
 ```sh
 pip install pillow reportlab
