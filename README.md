@@ -15,7 +15,23 @@ It uses **Tkinter** for the interface, **Pillow (PIL)** for image handling, and 
 ### **1️⃣ Install Python (if not installed)**
 - Download and install **Python 3.x** from [Python's official website](https://www.python.org/downloads/).
 
+- 🚀 How to Use
+Run the script
+1) **python app.py**
+2) **Click "Select Images" and choose multiple images.**
+3) **Enter the output PDF name (or leave it blank to use the default name "output.pdf").**
+4) **Click "Convert to PDF" and wait for the success message.**
+5) **Find your generated PDF in the same directory.**
+
+
 ### **2️⃣ Install Required Dependencies**
+
+📝 Dependencies
+tkinter → Built-in with Python (Used for GUI)
+
+Pillow → Used for image handling (opening, resizing)
+
+ReportLab → Generates PDF files from images
 Run the following command in your terminal or command prompt:  
 ```sh
 pip install pillow reportlab
